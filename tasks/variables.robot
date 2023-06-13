@@ -71,12 +71,3 @@ ${cancellation_10}    //div[@id="10m"]
 ${cancellation_15}    //div[@id="15m"]
 ${cancellation_30}    //div[@id="30m"]
 ${cancellation_60}    //div[@id="60m"]
-
-
-
-
-
-
-
-${email}    lubega@besquare.com.my
-${password}    KiruFlan99!

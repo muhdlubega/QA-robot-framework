@@ -18,21 +18,3 @@ ${invalid_length}    12345678901234567890123456789012
 ${valid_length}    testing
 ${outside_range_error}    //div[text()="Length of token name must be between 2 and 32 characters." or "Maximum 32 characters"]
 ${create_btn}    //button[@class="dc-btn dc-btn__effect dc-btn--primary dc-btn__large dc-btn__button-group da-api-token__button"]
-# ${create_btn_disabled}    //button[@class="dc-btn dc-btn__effect dc-btn--primary dc-btn__large dc-btn__button-group da-api-token__button" and "disabled"]
-
-
-
-
-
-
-
-
-
-
-
-   
-
-
-
-${email}    lubega@besquare.com.my
-${password}    KiruFlan99!
