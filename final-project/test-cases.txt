@@ -1,0 +1,24 @@
+1 Accessibility of API Token page in Account Settings
+1.1 Opening https://app.deriv.com/account/api-token without logging in should redirect user to Deriv's Log In page
+1.2 Check that user can access https://app.deriv.com/account/api-token when account is logged in
+
+2 Interactive elements of API Token page
+2.1 Clicking the X button closes the API Token page in Account Settings and redirects user to Deriv Trader page
+2.2 Clicking the Log Out button logs user out of the account and redirects to Deriv Trader page
+2.3 Clicking on the Copy Token button copies the token to clipboard
+2.4 Clicking on the Show Token button displays the hidden token
+2.5 Clicking on the Delete button opens a popup to confirm Delete
+2.6 Clicking on the Cancel button in the Delete popup closes the popup
+2.7 Clicking on the Delete button in the Delete popup removes the token from the list
+
+3 Creating API Token
+3.1 Check that the Read button adds read property to API token
+3.2 Check that the Trade button adds trade property to API token
+3.3 Check that the Payments button adds payments property to API token
+3.4 Check that the Trading information button adds trading information property to API token
+3.5 Check that the Admin button adds admin property to API token
+3.6 Not inputting name in the name field displays the "Please enter a token name" error
+3.7 Inputting a name under 2 characters displays the "Length of token name must be between 2 and 32 characters" error
+3.8 Inputting a name above 32 characters displays the "Length of token name must be between 2 and 32 characters" error
+3.9 Check that Create button is disabled when no scope is chosen
+3.10 Clicking on the Create button when atleast 1 scope is chosen and name given is between 2 and 32 characters adds API token to API token list
